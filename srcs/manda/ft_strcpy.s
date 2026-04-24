@@ -19,5 +19,6 @@ ft_strcpy:
     jmp .loop
 
 .end:
+    mov byte [rdi + rax], 0
     mov rax, rdi 
     ret

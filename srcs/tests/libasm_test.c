@@ -85,7 +85,7 @@ int main() {
 
     printf("\n========= ft_strdup =========\n\n");
 
-    char *msg_cpy = ft_strdup("\x30");
+    char *msg_cpy = ft_strdup("Hello World!");
 
     printf("message copy: %s\n", msg_cpy);
     free(msg_cpy);
