@@ -23,4 +23,3 @@ ft_read:
 
 .end:
     ret
-section .note.GNU-stack noalloc noexec nowrite progbits

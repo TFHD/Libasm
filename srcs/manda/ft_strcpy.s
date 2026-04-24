@@ -21,4 +21,3 @@ ft_strcpy:
 .end:
     mov rax, rdi 
     ret
-section .note.GNU-stack noalloc noexec nowrite progbits
